@@ -10,7 +10,6 @@ function main() {
     console.log(err.message);
   } finally {
     console.log(`Type of Your Input is : ${typeof my_string}`);
-    console.log("in Finally");
   }
 }
 main();
